@@ -1,7 +1,6 @@
 # 國家/開車對應年齡程式
-country = input('請輸入你的國家：')
+country = int(input('請輸入你的國家：'))
 age = input('請輸入年齡：')
-age = int(age)
 
 if country == '台灣':
 	if age >= 18:
